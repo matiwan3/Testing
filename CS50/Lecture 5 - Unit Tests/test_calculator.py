@@ -16,7 +16,7 @@ def test_square():
         print("3 squared was not 9")
     
     try:
-        assert square(-2) == 4
+        assert square(-2) == 4 
     except AssertionError:
         print("-2 squared was not 4")
         
