@@ -12,4 +12,15 @@ def isEven(n):
     return False
 
 def always_greater(x,y):
-    x = y + x + 1
+    x = y+1
+    
+class dog:
+    def dog_properties(self):
+        name = self.name
+        age = self.age
+        
+dog
+        
+
+    
+    

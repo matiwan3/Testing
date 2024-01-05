@@ -1,0 +1,16 @@
+npm init playwright@latest
+npm playwright -v
+npx playwright --help
+ctr + shift + p
+npx playwright test // run all the tests files in test folder
+npx playwright show-report
+npx playwright test one.spec.js two.spec.js
+npx playwright test [path] / (word which test contains: example)
+npx playwright test -g "homepage has Playwright title"
+npx playwright test --project=chromium
+npx playwright test --headed
+npx playwright test --debug
+npx playwright test example.spec.js:21 --debug
+
+the keyword async before a function makes the function return a promise
+the keyword await before a function makes the function wait for a promise
