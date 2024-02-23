@@ -36,19 +36,16 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-      testMatch: '**/tests/*.spec.js',
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
-      testMatch: '**/tests/*.spec.js',
     },
 
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
-      testMatch: '**/tests/*.spec.js',
     },
 
     /* Test against mobile viewports. */
